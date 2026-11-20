@@ -1,0 +1,36 @@
+﻿<ui:FluentWindow x:Class="ClothRentingStore.UI.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+                 xmlns:local="clr-namespace:ClothRentingStore.UI"
+                 mc:Ignorable="d"
+                 Title="Cloth Renting Store Management"
+                 Height="720"
+                 Width="1200"
+                 WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ui:TitleBar x:Name="TitleBar"
+                     Title="Cloth Renting Store Management"
+                     Grid.Row="0" />
+
+        <StackPanel Grid.Row="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <ui:TextBlock Text="Cloth Renting Store Management"
+                          FontTypography="Title"
+                          HorizontalAlignment="Center"
+                          Margin="0,0,0,12" />
+            <ui:TextBlock Text="Native Desktop Application - .NET 9 &amp; WPF-UI Fluent Design"
+                          FontTypography="Body"
+                          Foreground="{ui:ThemeResource TextFillColorSecondaryBrush}"
+                          HorizontalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</ui:FluentWindow>

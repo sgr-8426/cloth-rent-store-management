@@ -8,7 +8,7 @@
 ---
 
 ## Progress Overview
-- [ ] **Phase 0: Foundation & Core Infrastructure** (0/6 Complete)
+- [ ] **Phase 0: Foundation & Core Infrastructure** (1/6 Complete)
 - [ ] **Phase 1: Garment & Inventory Management** (0/8 Complete)
 - [ ] **Phase 2: Customer & Sizing Management** (0/6 Complete)
 - [ ] **Phase 3: Booking, Reservation & Availability Calendar** (0/7 Complete)
@@ -25,7 +25,7 @@
 ## Phase 0: Foundation & Core Infrastructure
 
 ### 0.1 Solution & Project Scaffolding
-- [ ] **Task 0.1.1:** Scaffold .NET 9 Solution with Clean Architecture:
+- [x] **Task 0.1.1:** Scaffold .NET 9 Solution with Clean Architecture:
   - `ClothRentingStore.Core` (Models, Enums, DTOs, Business Interfaces)
   - `ClothRentingStore.Data` (DbContext, Configurations, Migrations, Repositories)
   - `ClothRentingStore.Services` (Domain logic, Printing, Barcodes, PDF generation)
